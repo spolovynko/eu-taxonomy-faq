@@ -5,9 +5,37 @@ services:
     environment:
       HOST: "${HOST:-0.0.0.0}"
       PORT: "${PORT:-8000}"
-      EU_TAXONOMY_FAQ_URL: "${EU_TAXONOMY_FAQ_URL:-https://ec.europa.eu/sustainable-finance-taxonomy/faq}"
-      FAQ_OUTPUT_PATH: "${FAQ_OUTPUT_PATH:-data/raw/faqs.json}"
+      EMBEDDING_BASE_URL: "http://ollama:11434/v1"
+      EMBEDDING_API_KEY: "ollama"
+      EMBEDDING_MODEL: "${EMBEDDING_MODEL:-qwen3-embedding:0.6b}"
+      EMBEDDING_BATCH_SIZE: "${EMBEDDING_BATCH_SIZE:-32}"
     ports:
       - "${PORT:-8000}:${PORT:-8000}"
+    depends_on:
+      ollama-model:
+        condition: service_completed_successfully
     volumes:
       - ./data:/app/data
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  ollama-model:
+    image: curlimages/curl:latest
+    depends_on:
+      ollama:
+        condition: service_started
+    entrypoint: >
+      sh -c "
+      until curl -s http://ollama:11434/api/tags >/dev/null;
+      do sleep 2; done;
+      curl --fail http://ollama:11434/api/pull
+      -d '{\"model\":\"qwen3-embedding:0.6b\"}'
+      "
+
+volumes:
+  ollama_data:

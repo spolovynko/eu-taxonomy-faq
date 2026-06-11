@@ -10,6 +10,11 @@ class Settings(BaseSettings):
     port: int
     eu_taxonomy_faq_url: str
     faq_output_path: Path
+    chunk_size: int
+    embedding_base_url: str
+    embedding_api_key: str
+    embedding_model: str
+    embedding_batch_size: int
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -53,6 +58,42 @@ class Settings(BaseSettings):
             raise ValueError("FAQ_OUTPUT_PATH must point to a JSON file")
 
         return output_path
+
+    @field_validator("chunk_size")
+    @classmethod
+    def validate_chunk_size(cls, value: int) -> int:
+        if value <= 0:
+            raise ValueError("CHUNK_SIZE must be greater than zero")
+
+        return value
+
+    @field_validator("embedding_base_url")
+    @classmethod
+    def validate_embedding_base_url(cls, value: str) -> str:
+        base_url = value.strip().rstrip("/")
+
+        if not base_url.startswith(("http://", "https://")):
+            raise ValueError("EMBEDDING_BASE_URL must be a valid URL")
+
+        return base_url
+
+    @field_validator("embedding_api_key", "embedding_model")
+    @classmethod
+    def validate_embedding_text(cls, value: str) -> str:
+        value = value.strip()
+
+        if not value:
+            raise ValueError("Embedding configuration values cannot be empty")
+
+        return value
+
+    @field_validator("embedding_batch_size")
+    @classmethod
+    def validate_embedding_batch_size(cls, value: int) -> int:
+        if value <= 0:
+            raise ValueError("EMBEDDING_BATCH_SIZE must be greater than zero")
+
+        return value
 
 
 @lru_cache(maxsize=1)

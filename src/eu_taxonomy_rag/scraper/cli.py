@@ -2,7 +2,12 @@ import json
 from pathlib import Path
 
 from eu_taxonomy_rag.config import get_settings
-from eu_taxonomy_rag.scraper import Parser, PlaywrightScraper, Scrape
+from eu_taxonomy_rag.scraper import (
+    Parser,
+    PlaywrightScraper,
+    Scraper,
+)
+
 
 def scrape_faqs(
     scraper: Scraper,
