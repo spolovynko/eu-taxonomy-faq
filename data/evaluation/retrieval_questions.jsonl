@@ -1,0 +1,30 @@
+{"id":"general-01","question":"Can you explain what the EU Taxonomy is?","expected_faq_ids":["faq_777a448bcdd1"],"answerable":true}
+{"id":"general-02","question":"Why was the EU Taxonomy created?","expected_faq_ids":["faq_b3ebb78af47a"],"answerable":true}
+{"id":"general-03","question":"How does the Taxonomy decide whether an economic activity is green?","expected_faq_ids":["faq_5141e84f977f"],"answerable":true}
+{"id":"general-04","question":"How can a small company or SME benefit from the EU Taxonomy?","expected_faq_ids":["faq_fc754a4edf73"],"answerable":true}
+{"id":"general-05","question":"What purpose do minimum safeguards serve?","expected_faq_ids":["faq_76000ae2f93c"],"answerable":true}
+{"id":"general-06","question":"How does Article 18 define minimum safeguards?","expected_faq_ids":["faq_6384d00bfe95"],"answerable":true}
+{"id":"climate-01","question":"Will technical screening criteria become stricter as time passes?","expected_faq_ids":["faq_aa70d6935a66"],"answerable":true}
+{"id":"climate-02","question":"What needs to be checked before an activity can be called Taxonomy-aligned?","expected_faq_ids":["faq_57b2b0fd852a"],"answerable":true}
+{"id":"climate-03","question":"Can technical consultancy work qualify as Taxonomy-eligible?","expected_faq_ids":["faq_41a547af5567"],"answerable":true}
+{"id":"general-07","question":"What is the ambition behind the substantial contribution criteria?","expected_faq_ids":["faq_70a618e119ff"],"answerable":true}
+{"id":"general-08","question":"What does the Platform on Sustainable Finance do when technical screening criteria are developed?","expected_faq_ids":["faq_2c22b8afd63e"],"answerable":true}
+{"id":"general-09","question":"Why are some industries and economic activities not included in the EU Taxonomy?","expected_faq_ids":["faq_89d3490fb13c"],"answerable":true}
+{"id":"eligibility-01","question":"What exactly is a Taxonomy-eligible economic activity?","expected_faq_ids":["faq_e872eee7aa76"],"answerable":true}
+{"id":"eligibility-02","question":"What is the difference between enabling and transitional activities?","expected_faq_ids":["faq_2d05769f5fb7"],"answerable":true}
+{"id":"eligibility-03","question":"How should NACE codes be used when identifying eligible activities?","expected_faq_ids":["faq_e3a09fcbeb74"],"answerable":true}
+{"id":"eligibility-04","question":"Must non-financial companies include eligible activities outside the EU?","expected_faq_ids":["faq_bbfbef912495"],"answerable":true}
+{"id":"eligibility-05","question":"What must a company report when it has no Taxonomy-eligible activities?","expected_faq_ids":["faq_1cd032b560d0"],"answerable":true}
+{"id":"disclosure-01","question":"How are capital expenditure and operating expenditure defined for Taxonomy disclosures?","expected_faq_ids":["faq_c7b8cc6a4a67"],"answerable":true}
+{"id":"reporting-01","question":"Which purchases and measures belong in the CapEx and OpEx scope?","expected_faq_ids":["faq_40ad88e29386"],"answerable":true}
+{"id":"disclosure-02","question":"What information must non-financial companies disclose under the delegated act?","expected_faq_ids":["faq_25767887bb4a"],"answerable":true}
+{"id":"disclosure-03","question":"What are financial companies required to report under the disclosures delegated act?","expected_faq_ids":["faq_9a5fd7b6dacf"],"answerable":true}
+{"id":"reporting-02","question":"Should financial undertakings calculate separate KPIs based on turnover and CapEx?","expected_faq_ids":["faq_9b953d3b3cc8"],"answerable":true}
+{"id":"climate-04","question":"Can regional or national climate projections be used for a climate risk assessment?","expected_faq_ids":["faq_d2e1a1a581c4"],"answerable":true}
+{"id":"climate-05","question":"Which documents demonstrate compliance with DNSH climate adaptation requirements?","expected_faq_ids":["faq_8f9d87d25b9f"],"answerable":true}
+{"id":"complementary-01","question":"Why was the Taxonomy Complementary Climate Delegated Act introduced?","expected_faq_ids":["faq_a1a7f1f6a52e","faq_ece7fc571ee2"],"answerable":true}
+{"id":"unanswerable-01","question":"What will the weather be in Brussels tomorrow?","expected_faq_ids":[],"answerable":false}
+{"id":"unanswerable-02","question":"Who won the most recent football World Cup?","expected_faq_ids":[],"answerable":false}
+{"id":"unanswerable-03","question":"How do I bake a chocolate cake?","expected_faq_ids":[],"answerable":false}
+{"id":"unanswerable-04","question":"How can I sort a Python list in descending order?","expected_faq_ids":[],"answerable":false}
+{"id":"unanswerable-05","question":"What is the capital city of Japan?","expected_faq_ids":[],"answerable":false}

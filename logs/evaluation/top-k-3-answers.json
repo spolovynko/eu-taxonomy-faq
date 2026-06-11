@@ -1,0 +1,730 @@
+{
+  "questions": 24,
+  "answerable_questions": 20,
+  "unanswerable_questions": 4,
+  "generation_success_rate": 0.8333333333333334,
+  "average_fact_coverage": 0.7616666666666666,
+  "refusal_accuracy": 0.0,
+  "false_refusal_rate": 0.0,
+  "citation_validity_rate": 0.8333333333333334,
+  "retrieval_hit_at_k": 0.9,
+  "average_retrieval_latency_seconds": 0.09651784166756745,
+  "median_retrieval_latency_seconds": 0.09556010000233073,
+  "p95_retrieval_latency_seconds": 0.10950549998960923,
+  "average_generation_latency_seconds": 0.5512187166671841,
+  "median_generation_latency_seconds": 0.5924680999887642,
+  "p95_generation_latency_seconds": 0.7404300000052899,
+  "average_total_latency_seconds": 0.647737091666689,
+  "median_total_latency_seconds": 0.7002170999912778,
+  "p95_total_latency_seconds": 0.8432689000037499,
+  "robustness": [
+    {
+      "group": "taxonomy-definition",
+      "variants": 2,
+      "average_fact_coverage": 0.8333333333333333,
+      "fact_coverage_range": 0.33333333333333337,
+      "refusal_consistent": true
+    },
+    {
+      "group": "eligibility-definition",
+      "variants": 2,
+      "average_fact_coverage": 1.0,
+      "fact_coverage_range": 0.0,
+      "refusal_consistent": true
+    },
+    {
+      "group": "minimum-safeguards",
+      "variants": 2,
+      "average_fact_coverage": 1.0,
+      "fact_coverage_range": 0.0,
+      "refusal_consistent": true
+    },
+    {
+      "group": "alignment-checks",
+      "variants": 2,
+      "average_fact_coverage": 0.375,
+      "fact_coverage_range": 0.75,
+      "refusal_consistent": true
+    },
+    {
+      "group": "unrelated",
+      "variants": 4,
+      "average_fact_coverage": 0.0,
+      "fact_coverage_range": 0.0,
+      "refusal_consistent": true
+    }
+  ],
+  "results": [
+    {
+      "id": "taxonomy-01",
+      "question": "What is the EU Taxonomy?",
+      "answerable": true,
+      "variant_group": "taxonomy-definition",
+      "expected_faq_ids": [
+        "faq_777a448bcdd1"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_777a448bcdd1",
+        "faq_777a448bcdd1",
+        "faq_4faab492fe37"
+      ],
+      "answer": "The EU Taxonomy is a green classification system that translates the EU's climate and environmental objectives into criteria for specific economic activities for investment purposes. It recognises as green, or 'environmentally sustainable', economic activities that make a substantial contribution to at least one of the EU\u2019s climate and environmental objectives, while at the same time not significantly harming any of these objectives and meeting minimum social safeguards.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_777a448bcdd1_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.1079401000024518,
+      "generation_latency_seconds": 0.5924680999887642,
+      "total_latency_seconds": 0.7004097000026377
+    },
+    {
+      "id": "taxonomy-02",
+      "question": "Can you explain the EU Taxonomy in simple terms?",
+      "answerable": true,
+      "variant_group": "taxonomy-definition",
+      "expected_faq_ids": [
+        "faq_777a448bcdd1"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_777a448bcdd1",
+        "faq_777a448bcdd1",
+        "faq_4faab492fe37"
+      ],
+      "answer": "The EU Taxonomy is like a guidebook that helps companies and investors understand which economic activities can contribute positively to the environment, such as reducing carbon emissions or conserving natural resources. It defines what it means for an activity to be environmentally sustainable by meeting certain criteria related to climate change and environmental objectives. Companies and financial institutions use this taxonomy to make decisions about where to invest their money based on how aligned these investments are with sustainability goals.",
+      "confidence": "medium",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.6666666666666666,
+      "used_chunk_ids": [
+        "faq_777a448bcdd1_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.10533880000002682,
+      "generation_latency_seconds": 0.6276394000014989,
+      "total_latency_seconds": 0.7329790999938268
+    },
+    {
+      "id": "eligibility-01",
+      "question": "What is a Taxonomy-eligible economic activity?",
+      "answerable": true,
+      "variant_group": "eligibility-definition",
+      "expected_faq_ids": [
+        "faq_e872eee7aa76"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_e872eee7aa76",
+        "faq_e872eee7aa76",
+        "faq_6c681cd84bf2"
+      ],
+      "answer": "As per Article 1(5) of the Disclosures Delegated Act, an eligible economic activity is described in the Climate Delegated Act adopted on 4 June 2021. This definition does not require that the economic activity meets any or all of the technical screening criteria laid down in the Climate Delegated Act (and future delegated acts). Therefore, Taxonomy-eligibility does not indicate the environmental performance and sustainability of an activity.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_e872eee7aa76_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.10401289998844732,
+      "generation_latency_seconds": 0.6569408000068506,
+      "total_latency_seconds": 0.7609540999983437
+    },
+    {
+      "id": "eligibility-02",
+      "question": "When can an activity be described as Taxonomy eligible?",
+      "answerable": true,
+      "variant_group": "eligibility-definition",
+      "expected_faq_ids": [
+        "faq_e872eee7aa76"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_e872eee7aa76",
+        "faq_6c681cd84bf2",
+        "faq_6ac096455be2"
+      ],
+      "answer": "An economic activity is Taxonomy-eligible according to Article 1(5) of the Disclosures Delegated Act, which states that it corresponds to economic activities described in the Climate Delegated Act adopted on 4 June 2021. This definition does not require the activity to meet any or all of the technical screening criteria laid down in the Climate Delegated Act.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_e872eee7aa76_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.10317550000036135,
+      "generation_latency_seconds": 0.6440743999992264,
+      "total_latency_seconds": 0.747250400003395
+    },
+    {
+      "id": "safeguards-01",
+      "question": "What role do minimum safeguards play?",
+      "answerable": true,
+      "variant_group": "minimum-safeguards",
+      "expected_faq_ids": [
+        "faq_76000ae2f93c"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_6384d00bfe95",
+        "faq_6992518d6bbc",
+        "faq_76000ae2f93c"
+      ],
+      "answer": "The minimum safeguards under the Taxonomy Regulation are an integral part of the Taxonomy framework, serving as one of the four criteria required to be met for economic activities to be considered environmentally sustainable. They ensure that entities carrying out such activities meet certain minimum social and governance standards, preventing them from being regarded as 'sustainable' if they involve breaches of key social principles or human and labour rights.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_6384d00bfe95_chunk_000",
+        "faq_76000ae2f93c_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.10283829999389127,
+      "generation_latency_seconds": 0.7404300000052899,
+      "total_latency_seconds": 0.8432689000037499
+    },
+    {
+      "id": "safeguards-02",
+      "question": "Why are minimum safeguards required by the EU Taxonomy?",
+      "answerable": true,
+      "variant_group": "minimum-safeguards",
+      "expected_faq_ids": [
+        "faq_76000ae2f93c"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_76000ae2f93c",
+        "faq_6384d00bfe95",
+        "faq_6384d00bfe95"
+      ],
+      "answer": "The minimum safeguards are required by the EU Taxonomy to ensure that entities carrying out economic activities considered as Taxonomy-aligned meet certain minimum social and governance standards, preventing activities from being regarded as 'sustainable' if they involve breaches of key social principles and human and labour rights.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_76000ae2f93c_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.10950549998960923,
+      "generation_latency_seconds": 0.530049200009671,
+      "total_latency_seconds": 0.6395549999870127
+    },
+    {
+      "id": "alignment-01",
+      "question": "What must be checked before an activity is Taxonomy-aligned?",
+      "answerable": true,
+      "variant_group": "alignment-checks",
+      "expected_faq_ids": [
+        "faq_57b2b0fd852a"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_57b2b0fd852a",
+        "faq_67b49bcc81b3",
+        "faq_1c129f960d5b"
+      ],
+      "answer": "The checking of compliance with the TSC requires the collection and assessment of relevant information in order to determine if the economic activity fulfills the conditions set out in the TSC. All criteria related to substantial contribution and DNSH, as well as the minimum social safeguards referred to in Article 18 of the Taxonomy Regulation have to be met for an activity to be considered Taxonomy-aligned.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.75,
+      "used_chunk_ids": [
+        "faq_57b2b0fd852a_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09258669998962432,
+      "generation_latency_seconds": 0.6423634000093443,
+      "total_latency_seconds": 0.7349506999889854
+    },
+    {
+      "id": "alignment-02",
+      "question": "Which conditions must an economic activity satisfy for Taxonomy alignment?",
+      "answerable": true,
+      "variant_group": "alignment-checks",
+      "expected_faq_ids": [
+        "faq_57b2b0fd852a"
+      ],
+      "expected_faq_retrieved": false,
+      "retrieved_faq_ids": [
+        "faq_772f397fb826",
+        "faq_e872eee7aa76",
+        "faq_40ad88e29386"
+      ],
+      "answer": "The conditions that an economic activity must satisfy for Taxonomy alignment include being described in the delegated acts adopted under Article 10(3), Article 11(3), Article 12(2), Article 13(2), Article 14(2) and Article 15(2) of the Taxonomy Regulation, which correspond to economic activities as defined by the Climate Delegated Act. These delegated acts are dynamic and will expand over time to include other environmental objectives.",
+      "confidence": "medium",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.0,
+      "used_chunk_ids": [
+        "faq_e872eee7aa76_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.07945309999922756,
+      "generation_latency_seconds": 0.7031283999967854,
+      "total_latency_seconds": 0.7825817999982974
+    },
+    {
+      "id": "sme-01",
+      "question": "Can a small company benefit from the EU Taxonomy?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_fc754a4edf73"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_fc754a4edf73",
+        "faq_4faab492fe37",
+        "faq_777a448bcdd1"
+      ],
+      "answer": "Yes, businesses of any size, including small companies, can use the EU Taxonomy to explain their green activities to investors or stakeholders. Disclosures are only mandatory for large companies within the scope of the CSRD, but many small companies and businesses could find it useful to disclose the Taxonomy alignment of their activities on a voluntary basis.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_fc754a4edf73_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09556010000233073,
+      "generation_latency_seconds": 0.5590767999965465,
+      "total_latency_seconds": 0.6546375000034459
+    },
+    {
+      "id": "platform-01",
+      "question": "What does the Platform on Sustainable Finance do?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_2c22b8afd63e"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_2c22b8afd63e",
+        "faq_42153c2db20b",
+        "faq_6992518d6bbc"
+      ],
+      "answer": "The Platform on Sustainable Finance advises the Commission on the further development of the EU Taxonomy framework, the monitoring of capital flows towards sustainable finance, and sustainable finance policy development. It also assists in analyzing requests from stakeholders to develop or revise technical screening criteria for a given economic activity.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_2c22b8afd63e_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09442190000845585,
+      "generation_latency_seconds": 0.5362453999987338,
+      "total_latency_seconds": 0.6306677000102354
+    },
+    {
+      "id": "complementary-01",
+      "question": "Why was the Complementary Climate Delegated Act introduced?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_a1a7f1f6a52e",
+        "faq_ece7fc571ee2"
+      ],
+      "expected_faq_retrieved": false,
+      "retrieved_faq_ids": [
+        "faq_a88b99eff908",
+        "faq_f80793c75b39",
+        "faq_7513ab66c255"
+      ],
+      "answer": "The Complementary Climate Delegated Act was introduced to cover as transitional activities certain economic activities involving specific gas and nuclear-related technologies that were not part of the Climate Delegated Act.",
+      "confidence": "medium",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_f80793c75b39_chunk_001"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.08610260000568815,
+      "generation_latency_seconds": 0.4629628000111552,
+      "total_latency_seconds": 0.5490657000045758
+    },
+    {
+      "id": "consultancy-01",
+      "question": "Can technical consultancy services be Taxonomy-eligible?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_41a547af5567"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_41a547af5567",
+        "faq_6c681cd84bf2",
+        "faq_e872eee7aa76"
+      ],
+      "answer": "Only consultancy services explicitly covered by the Taxonomy can be Taxonomy-eligible. These include those related to energy performance of buildings and adaptation to climate change.",
+      "confidence": "medium",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_41a547af5567_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09438890000456013,
+      "generation_latency_seconds": 0.43408110000018496,
+      "total_latency_seconds": 0.5284708000108367
+    },
+    {
+      "id": "purpose-01",
+      "question": "Why was the EU Taxonomy created?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_b3ebb78af47a"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_777a448bcdd1",
+        "faq_b3ebb78af47a",
+        "faq_4faab492fe37"
+      ],
+      "answer": "We need reliable tools to support companies in the transition to climate neutrality and a sustainable economy. The EU Taxonomy is one such tool, translating the climate and environmental objectives into clear criteria, to create a common language around green activities.",
+      "confidence": "medium",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.6666666666666666,
+      "used_chunk_ids": [
+        "faq_b3ebb78af47a_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09700870000233408,
+      "generation_latency_seconds": 0.5048793000023579,
+      "total_latency_seconds": 0.6018887999962317
+    },
+    {
+      "id": "green-criteria-01",
+      "question": "How does the Taxonomy decide whether an economic activity is green?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_5141e84f977f"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_5141e84f977f",
+        "faq_5141e84f977f",
+        "faq_5141e84f977f"
+      ],
+      "answer": "The Taxonomy decides whether an economic activity is green by meeting four conditions: making a substantial contribution to at least one environmental objective, doing no significant harm to any other environmental objective, complying with minimum social safeguards, and complying with the technical screening criteria. The technical screening criteria specify environmental performance requirements that ensure the activity makes a substantial contribution to the environmental objective in question and does not significantly harm the other objectives.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.4,
+      "used_chunk_ids": [
+        "faq_5141e84f977f_chunk_001",
+        "faq_5141e84f977f_chunk_002"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.0991822000069078,
+      "generation_latency_seconds": 0.7283647000003839,
+      "total_latency_seconds": 0.8275474000110989
+    },
+    {
+      "id": "article-18-01",
+      "question": "How does Article 18 define minimum safeguards?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_6384d00bfe95"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_6384d00bfe95",
+        "faq_6384d00bfe95",
+        "faq_6384d00bfe95"
+      ],
+      "answer": "Article 18(1) of the EU Taxonomy defines minimum safeguards as due diligence and remedy procedures implemented by a company that is carrying out an economic activity to ensure alignment with the OECD Guidelines for Multinational Enterprises (OECD MNEs) and the UN Guiding Principles on Business and Human Rights (UNGP). This includes principles and rights set out in eight of the ten fundamental conventions identified in the International Labour Organization's (ILO) Declaration on Fundamental Principles and Rights at Work. Article 18(2) introduces a direct link with the principle of 'do no significant harm' (DNSH), ensuring that minimum social standards are defined at European level and there is consistency in European legislation.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_6384d00bfe95_chunk_000",
+        "faq_6384d00bfe95_chunk_001"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09343330000410788,
+      "generation_latency_seconds": 0.9846083000011276,
+      "total_latency_seconds": 1.078041899992968
+    },
+    {
+      "id": "coverage-01",
+      "question": "Why are some industries not yet covered by the EU Taxonomy?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_89d3490fb13c"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_031698157e34",
+        "faq_89d3490fb13c",
+        "faq_777a448bcdd1"
+      ],
+      "answer": "Some sectors or activities are not currently covered in the EU Taxonomy due to a delicate compromise on whether to include nuclear energy and natural gas, which led to the creation of an additional delegated act. Additionally, the gradual inclusion of economic sectors and activities will be based on scientific evidence and broad stakeholder input.",
+      "confidence": "medium",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.3333333333333333,
+      "used_chunk_ids": [
+        "faq_031698157e34_chunk_000",
+        "faq_89d3490fb13c_chunk_001"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.08121670001128223,
+      "generation_latency_seconds": 0.6287850999942748,
+      "total_latency_seconds": 0.7100020999932894
+    },
+    {
+      "id": "activity-types-01",
+      "question": "What is the difference between enabling and transitional activities?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_2d05769f5fb7"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_2d05769f5fb7",
+        "faq_1c129f960d5b",
+        "faq_5141e84f977f"
+      ],
+      "answer": "Enabling activities directly enable others to make a substantial contribution to an environmental objective. Transitional activities are those for which low-carbon alternatives are not yet available, with greenhouse gas emission levels corresponding to the best performance in the sector or industry. They must not hamper the development and deployment of low-carbon alternatives and should not lead to a lock-in of carbon-intensive assets.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 1.0,
+      "used_chunk_ids": [
+        "faq_2d05769f5fb7_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.08075900000403635,
+      "generation_latency_seconds": 0.6391201999940677,
+      "total_latency_seconds": 0.7198796000011498
+    },
+    {
+      "id": "nace-01",
+      "question": "How should NACE codes be used to identify eligible activities?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_e3a09fcbeb74"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_e3a09fcbeb74",
+        "faq_43e59e6580a4",
+        "faq_ac946a8d2deb"
+      ],
+      "answer": "NACE codes provide a framework for identifying Taxonomy-eligible activities by helping users navigate through the Taxonomy. They can help identify taxonomy-eligible activities (not aligned ones) but only the specific activity description in the Climate Delegated Act sets out the exact scope of the activities included in the Act.",
+      "confidence": "medium",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.6666666666666666,
+      "used_chunk_ids": [
+        "faq_e3a09fcbeb74_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09492610000597779,
+      "generation_latency_seconds": 0.5417370999930426,
+      "total_latency_seconds": 0.6366637000028277
+    },
+    {
+      "id": "non-eligible-01",
+      "question": "What must a company report when it has no Taxonomy-eligible activities?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_1cd032b560d0"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_1cd032b560d0",
+        "faq_280fb2fc089f",
+        "faq_6c681cd84bf2"
+      ],
+      "answer": "A company that has no Taxonomy-eligible economic activities should disclose the information required in relation to their non-eligible economic activities, such as filling in Section B of the templates provided in Annex II to the Disclosures Delegated Act.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.25,
+      "used_chunk_ids": [
+        "faq_1cd032b560d0_chunk_000"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.09547689999453723,
+      "generation_latency_seconds": 0.5336821999953827,
+      "total_latency_seconds": 0.6291596999944886
+    },
+    {
+      "id": "disclosure-kpis-01",
+      "question": "Which KPIs must non-financial companies disclose?",
+      "answerable": true,
+      "variant_group": null,
+      "expected_faq_ids": [
+        "faq_25767887bb4a"
+      ],
+      "expected_faq_retrieved": true,
+      "retrieved_faq_ids": [
+        "faq_25767887bb4a",
+        "faq_25767887bb4a",
+        "faq_71673ccbeaf8"
+      ],
+      "answer": "Non-financial companies should disclose the proportion of environmentally sustainable economic activities that align with the EU Taxonomy criteria, including turnover-based and CapEx-based KPIs on Taxonomy-aligned activities and their breakdown per environmental objective, Taxonomy-eligible but not Taxonomy-aligned activies, and Taxonomy non-eligible activities.",
+      "confidence": "high",
+      "insufficient_context": false,
+      "correct_refusal": true,
+      "fact_coverage": 0.5,
+      "used_chunk_ids": [
+        "faq_25767887bb4a_chunk_001"
+      ],
+      "citations_valid": true,
+      "error": null,
+      "retrieval_latency_seconds": 0.08720100000209641,
+      "generation_latency_seconds": 0.6130157000006875,
+      "total_latency_seconds": 0.7002170999912778
+    },
+    {
+      "id": "refusal-01",
+      "question": "What will the weather be in Brussels tomorrow?",
+      "answerable": false,
+      "variant_group": "unrelated",
+      "expected_faq_ids": [],
+      "expected_faq_retrieved": false,
+      "retrieved_faq_ids": [
+        "faq_04d9d294ba9e",
+        "faq_a055f842c227",
+        "faq_1e7a16b8c64e"
+      ],
+      "answer": "",
+      "confidence": null,
+      "insufficient_context": null,
+      "correct_refusal": false,
+      "fact_coverage": null,
+      "used_chunk_ids": [],
+      "citations_valid": false,
+      "error": "1 validation error for RagAnswer\nanswer\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short",
+      "retrieval_latency_seconds": 0.09982759998820256,
+      "generation_latency_seconds": 0.24073580000549555,
+      "total_latency_seconds": 0.3405637999967439
+    },
+    {
+      "id": "refusal-02",
+      "question": "How do I bake a chocolate cake?",
+      "answerable": false,
+      "variant_group": "unrelated",
+      "expected_faq_ids": [],
+      "expected_faq_retrieved": false,
+      "retrieved_faq_ids": [
+        "faq_4d3e31c34490",
+        "faq_82bc408969fd",
+        "faq_1da38aa503cf"
+      ],
+      "answer": "",
+      "confidence": null,
+      "insufficient_context": null,
+      "correct_refusal": false,
+      "fact_coverage": null,
+      "used_chunk_ids": [],
+      "citations_valid": false,
+      "error": "1 validation error for RagAnswer\nanswer\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short",
+      "retrieval_latency_seconds": 0.13562719999754336,
+      "generation_latency_seconds": 0.22289080001064576,
+      "total_latency_seconds": 0.35851849999744445
+    },
+    {
+      "id": "refusal-03",
+      "question": "How can I sort a Python list?",
+      "answerable": false,
+      "variant_group": "unrelated",
+      "expected_faq_ids": [],
+      "expected_faq_retrieved": false,
+      "retrieved_faq_ids": [
+        "faq_b5f5ffe2b002",
+        "faq_3ae06da0426a",
+        "faq_fea639b5da25"
+      ],
+      "answer": "",
+      "confidence": null,
+      "insufficient_context": null,
+      "correct_refusal": false,
+      "fact_coverage": null,
+      "used_chunk_ids": [],
+      "citations_valid": false,
+      "error": "1 validation error for RagAnswer\nanswer\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short",
+      "retrieval_latency_seconds": 0.0795844000094803,
+      "generation_latency_seconds": 0.23371169999882113,
+      "total_latency_seconds": 0.31329650001134723
+    },
+    {
+      "id": "refusal-04",
+      "question": "What is the capital of Japan?",
+      "answerable": false,
+      "variant_group": "unrelated",
+      "expected_faq_ids": [],
+      "expected_faq_retrieved": false,
+      "retrieved_faq_ids": [
+        "faq_2701fb4a0d96",
+        "faq_a182842f48b7",
+        "faq_c7b8cc6a4a67"
+      ],
+      "answer": "",
+      "confidence": null,
+      "insufficient_context": null,
+      "correct_refusal": false,
+      "fact_coverage": null,
+      "used_chunk_ids": [],
+      "citations_valid": false,
+      "error": "1 validation error for RagAnswer\nanswer\n  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short",
+      "retrieval_latency_seconds": 0.09686070001043845,
+      "generation_latency_seconds": 0.22825849999208003,
+      "total_latency_seconds": 0.32511970000632573
+    }
+  ],
+  "experiment": "top-k-3",
+  "created_at": "2026-06-11T18:25:43.998078+00:00",
+  "config": {
+    "embedding_model": "qwen3-embedding:0.6b",
+    "llm_model": "qwen2.5:3b",
+    "temperature": 0.0,
+    "chunk_size": 2000,
+    "top_k": 3,
+    "warmup_runs": 1
+  }
+}

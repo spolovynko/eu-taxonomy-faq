@@ -31,8 +31,6 @@ COPY src ./src
 
 RUN uv sync --frozen --no-dev
 
-COPY main.py ./
-
 EXPOSE 8000
 
-CMD ["/app/.venv/bin/python", "main.py"]
+CMD ["/app/.venv/bin/python", "-m", "eu_taxonomy_rag.main"]

@@ -1,0 +1,1516 @@
+{
+  "questions": 30,
+  "answerable_questions": 25,
+  "hit_at_1": 0.8,
+  "hit_at_5": 0.96,
+  "mrr": 0.8633333333333333,
+  "average_answerable_top_score": 0.7258010212000001,
+  "average_unanswerable_top_score": 0.23516246600000001,
+  "minimum_answerable_top_score": 0.5667197,
+  "maximum_unanswerable_top_score": 0.28645855,
+  "candidate_score_threshold": 0.426589125,
+  "average_retrieval_latency_seconds": 0.10676150333116917,
+  "median_retrieval_latency_seconds": 0.10202059999573976,
+  "p95_retrieval_latency_seconds": 0.14246089999505784,
+  "results": [
+    {
+      "id": "general-01",
+      "question": "Can you explain what the EU Taxonomy is?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_777a448bcdd1"
+      ],
+      "rank": 1,
+      "top_score": 0.7396791,
+      "top_faq_id": "faq_777a448bcdd1",
+      "top_question": "What is the EU Taxonomy?",
+      "latency_seconds": 0.15617969998857006,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_777a448bcdd1",
+          "chunk_id": "faq_777a448bcdd1_chunk_000",
+          "question": "What is the EU Taxonomy?",
+          "score": 0.7396791
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_777a448bcdd1",
+          "chunk_id": "faq_777a448bcdd1_chunk_001",
+          "question": "What is the EU Taxonomy?",
+          "score": 0.69464844
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_4faab492fe37",
+          "chunk_id": "faq_4faab492fe37_chunk_001",
+          "question": "How will companies use the EU Taxonomy?",
+          "score": 0.66959184
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_b3ebb78af47a",
+          "chunk_id": "faq_b3ebb78af47a_chunk_000",
+          "question": "Why do we need an EU Taxonomy?",
+          "score": 0.6644902
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_25cc74c846a2",
+          "chunk_id": "faq_25cc74c846a2_chunk_000",
+          "question": "What is the Taxonomy Climate Delegated Act?",
+          "score": 0.6296054
+        }
+      ]
+    },
+    {
+      "id": "general-02",
+      "question": "Why was the EU Taxonomy created?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_b3ebb78af47a"
+      ],
+      "rank": 2,
+      "top_score": 0.6294553,
+      "top_faq_id": "faq_777a448bcdd1",
+      "top_question": "What is the EU Taxonomy?",
+      "latency_seconds": 0.14246089999505784,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_777a448bcdd1",
+          "chunk_id": "faq_777a448bcdd1_chunk_000",
+          "question": "What is the EU Taxonomy?",
+          "score": 0.6294553
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_b3ebb78af47a",
+          "chunk_id": "faq_b3ebb78af47a_chunk_000",
+          "question": "Why do we need an EU Taxonomy?",
+          "score": 0.6209928
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_4faab492fe37",
+          "chunk_id": "faq_4faab492fe37_chunk_001",
+          "question": "How will companies use the EU Taxonomy?",
+          "score": 0.61055493
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_777a448bcdd1",
+          "chunk_id": "faq_777a448bcdd1_chunk_001",
+          "question": "What is the EU Taxonomy?",
+          "score": 0.5953544
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_25cc74c846a2",
+          "chunk_id": "faq_25cc74c846a2_chunk_000",
+          "question": "What is the Taxonomy Climate Delegated Act?",
+          "score": 0.5802371
+        }
+      ]
+    },
+    {
+      "id": "general-03",
+      "question": "How does the Taxonomy decide whether an economic activity is green?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_5141e84f977f"
+      ],
+      "rank": 1,
+      "top_score": 0.7195347,
+      "top_faq_id": "faq_5141e84f977f",
+      "top_question": "How does the EU Taxonomy define green economic activities?",
+      "latency_seconds": 0.12551519999396987,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_5141e84f977f",
+          "chunk_id": "faq_5141e84f977f_chunk_001",
+          "question": "How does the EU Taxonomy define green economic activities?",
+          "score": 0.7195347
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_5141e84f977f",
+          "chunk_id": "faq_5141e84f977f_chunk_002",
+          "question": "How does the EU Taxonomy define green economic activities?",
+          "score": 0.7133366
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_5141e84f977f",
+          "chunk_id": "faq_5141e84f977f_chunk_000",
+          "question": "How does the EU Taxonomy define green economic activities?",
+          "score": 0.70304704
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_e872eee7aa76",
+          "chunk_id": "faq_e872eee7aa76_chunk_000",
+          "question": "What is a Taxonomy-eligible economic activity?",
+          "score": 0.6943596
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_777a448bcdd1",
+          "chunk_id": "faq_777a448bcdd1_chunk_000",
+          "question": "What is the EU Taxonomy?",
+          "score": 0.693701
+        }
+      ]
+    },
+    {
+      "id": "general-04",
+      "question": "How can a small company or SME benefit from the EU Taxonomy?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_fc754a4edf73"
+      ],
+      "rank": 1,
+      "top_score": 0.7754594,
+      "top_faq_id": "faq_fc754a4edf73",
+      "top_question": "My company is an SME. Can my company also benefit from the EU Taxonomy?",
+      "latency_seconds": 0.11946000000170898,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_fc754a4edf73",
+          "chunk_id": "faq_fc754a4edf73_chunk_000",
+          "question": "My company is an SME. Can my company also benefit from the EU Taxonomy?",
+          "score": 0.7754594
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_4faab492fe37",
+          "chunk_id": "faq_4faab492fe37_chunk_001",
+          "question": "How will companies use the EU Taxonomy?",
+          "score": 0.64619577
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_777a448bcdd1",
+          "chunk_id": "faq_777a448bcdd1_chunk_000",
+          "question": "What is the EU Taxonomy?",
+          "score": 0.6226171
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_031698157e34",
+          "chunk_id": "faq_031698157e34_chunk_000",
+          "question": "My company\u2019s activity is not covered in the EU Taxonomy. What does that mean for my company?",
+          "score": 0.6152427
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_b3ebb78af47a",
+          "chunk_id": "faq_b3ebb78af47a_chunk_000",
+          "question": "Why do we need an EU Taxonomy?",
+          "score": 0.5946754
+        }
+      ]
+    },
+    {
+      "id": "general-05",
+      "question": "What purpose do minimum safeguards serve?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_76000ae2f93c"
+      ],
+      "rank": 1,
+      "top_score": 0.5667197,
+      "top_faq_id": "faq_76000ae2f93c",
+      "top_question": "What role do the minimum safeguards play in the EU Taxonomy Regulation?",
+      "latency_seconds": 0.10785809998924378,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_76000ae2f93c",
+          "chunk_id": "faq_76000ae2f93c_chunk_000",
+          "question": "What role do the minimum safeguards play in the EU Taxonomy Regulation?",
+          "score": 0.5667197
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_6384d00bfe95",
+          "chunk_id": "faq_6384d00bfe95_chunk_000",
+          "question": "How are the minimum safeguards defined under the Article 18 of the EU Taxonomy?",
+          "score": 0.5648967
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_6992518d6bbc",
+          "chunk_id": "faq_6992518d6bbc_chunk_002",
+          "question": "Do financial undertakings have to comply with minimum safeguards in conducting their activities or is compliance with minimum safeguards only relevant at the level of the investee company?",
+          "score": 0.5602064
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_6992518d6bbc",
+          "chunk_id": "faq_6992518d6bbc_chunk_000",
+          "question": "Do financial undertakings have to comply with minimum safeguards in conducting their activities or is compliance with minimum safeguards only relevant at the level of the investee company?",
+          "score": 0.52686423
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_6384d00bfe95",
+          "chunk_id": "faq_6384d00bfe95_chunk_002",
+          "question": "How are the minimum safeguards defined under the Article 18 of the EU Taxonomy?",
+          "score": 0.51897204
+        }
+      ]
+    },
+    {
+      "id": "general-06",
+      "question": "How does Article 18 define minimum safeguards?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_6384d00bfe95"
+      ],
+      "rank": 1,
+      "top_score": 0.7671636,
+      "top_faq_id": "faq_6384d00bfe95",
+      "top_question": "How are the minimum safeguards defined under the Article 18 of the EU Taxonomy?",
+      "latency_seconds": 0.10841380000056233,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_6384d00bfe95",
+          "chunk_id": "faq_6384d00bfe95_chunk_000",
+          "question": "How are the minimum safeguards defined under the Article 18 of the EU Taxonomy?",
+          "score": 0.7671636
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_6384d00bfe95",
+          "chunk_id": "faq_6384d00bfe95_chunk_001",
+          "question": "How are the minimum safeguards defined under the Article 18 of the EU Taxonomy?",
+          "score": 0.6640906
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_6384d00bfe95",
+          "chunk_id": "faq_6384d00bfe95_chunk_002",
+          "question": "How are the minimum safeguards defined under the Article 18 of the EU Taxonomy?",
+          "score": 0.64054275
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_76000ae2f93c",
+          "chunk_id": "faq_76000ae2f93c_chunk_000",
+          "question": "What role do the minimum safeguards play in the EU Taxonomy Regulation?",
+          "score": 0.56259775
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_6992518d6bbc",
+          "chunk_id": "faq_6992518d6bbc_chunk_002",
+          "question": "Do financial undertakings have to comply with minimum safeguards in conducting their activities or is compliance with minimum safeguards only relevant at the level of the investee company?",
+          "score": 0.5509608
+        }
+      ]
+    },
+    {
+      "id": "climate-01",
+      "question": "Will technical screening criteria become stricter as time passes?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_aa70d6935a66"
+      ],
+      "rank": 1,
+      "top_score": 0.5962627,
+      "top_faq_id": "faq_aa70d6935a66",
+      "top_question": "Will the technical screening criteria set out in the Climate Delegated Act be made stricter and updated over time?",
+      "latency_seconds": 0.11009930000000168,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_aa70d6935a66",
+          "chunk_id": "faq_aa70d6935a66_chunk_000",
+          "question": "Will the technical screening criteria set out in the Climate Delegated Act be made stricter and updated over time?",
+          "score": 0.5962627
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_056775a64322",
+          "chunk_id": "faq_056775a64322_chunk_000",
+          "question": "How to deal with technical screening criteria that are not relevant to a specific activity mentioned in the description (e.g. a maintenance-only service with no construction-related waste)?",
+          "score": 0.5793544
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_df026e15cf05",
+          "chunk_id": "faq_df026e15cf05_chunk_000",
+          "question": "The top 15% is a dynamic metric. Is grandfathering guaranteed for properties, e.g. over the entire term of a green bond, if they were among the top 15% at the time of issue?",
+          "score": 0.56813824
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_a7cb46dbc399",
+          "chunk_id": "faq_a7cb46dbc399_chunk_000",
+          "question": "For the activity \u201cConstruction of new buildings\u201d in Section 7.1., is the date of submission of the building application decisive for the technical screening criteria to be applied?",
+          "score": 0.5408293
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_2c22b8afd63e",
+          "chunk_id": "faq_2c22b8afd63e_chunk_000",
+          "question": "What is the role of the Platform on Sustainable Finance in developing the technical screening criteria?",
+          "score": 0.50459033
+        }
+      ]
+    },
+    {
+      "id": "climate-02",
+      "question": "What needs to be checked before an activity can be called Taxonomy-aligned?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_57b2b0fd852a"
+      ],
+      "rank": 3,
+      "top_score": 0.65235865,
+      "top_faq_id": "faq_67b49bcc81b3",
+      "top_question": "In a number of cases of enabling activities, benchmarks compared to industry averages, peers or best available technologies are required. However, such information is not always available publicly. How should the requirement to provide these benchmarks be met?",
+      "latency_seconds": 0.10811919999832753,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_67b49bcc81b3",
+          "chunk_id": "faq_67b49bcc81b3_chunk_000",
+          "question": "In a number of cases of enabling activities, benchmarks compared to industry averages, peers or best available technologies are required. However, such information is not always available publicly. How should the requirement to provide these benchmarks be met?",
+          "score": 0.65235865
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_1c129f960d5b",
+          "chunk_id": "faq_1c129f960d5b_chunk_000",
+          "question": "What does \u201cbeyond the activity that is financed\u201d mean in the context of the guarantee of permanence referred to in point 3.2. in Section 1.3.?",
+          "score": 0.64730334
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_57b2b0fd852a",
+          "chunk_id": "faq_57b2b0fd852a_chunk_000",
+          "question": "What does checking the compliance with the TSC on the substantial contribution and the DNSH mean in practice?",
+          "score": 0.6468696
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_40ad88e29386",
+          "chunk_id": "faq_40ad88e29386_chunk_000",
+          "question": "What is the scope of the CapEx and OpEx referred to in points (c) of Section 1.1.2.2 and Section 1.1.3.2 of Annex I, i.e. purchase of Taxonomy-aligned output and individual measures?",
+          "score": 0.6249728
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_6ac096455be2",
+          "chunk_id": "faq_6ac096455be2_chunk_001",
+          "question": "How to identify Taxonomy-eligible activities of which activity descriptions contain qualifiers, such as \u2018low carbon\u2019, and \u2018climate-related perils\u2019?",
+          "score": 0.6245362
+        }
+      ]
+    },
+    {
+      "id": "climate-03",
+      "question": "Can technical consultancy work qualify as Taxonomy-eligible?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_41a547af5567"
+      ],
+      "rank": 1,
+      "top_score": 0.7723329,
+      "top_faq_id": "faq_41a547af5567",
+      "top_question": "Can technical consultancy services be counted as Taxonomy-eligible, and potentially Taxonomy-aligned, if they are related to an activity defined in the Taxonomy Delegated Acts?",
+      "latency_seconds": 0.1237801999959629,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_41a547af5567",
+          "chunk_id": "faq_41a547af5567_chunk_000",
+          "question": "Can technical consultancy services be counted as Taxonomy-eligible, and potentially Taxonomy-aligned, if they are related to an activity defined in the Taxonomy Delegated Acts?",
+          "score": 0.7723329
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_6c681cd84bf2",
+          "chunk_id": "faq_6c681cd84bf2_chunk_002",
+          "question": "How far should undertakings assess and report Taxonomy eligible activities in their value chain, both upstream and downstream?",
+          "score": 0.64364594
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_e872eee7aa76",
+          "chunk_id": "faq_e872eee7aa76_chunk_000",
+          "question": "What is a Taxonomy-eligible economic activity?",
+          "score": 0.6386713
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_772f397fb826",
+          "chunk_id": "faq_772f397fb826_chunk_000",
+          "question": "Does the product or service intended to qualify as Taxonomy-aligned under Section 3.6. have to constitute an economically viable solution?",
+          "score": 0.6002869
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_056775a64322",
+          "chunk_id": "faq_056775a64322_chunk_000",
+          "question": "How to deal with technical screening criteria that are not relevant to a specific activity mentioned in the description (e.g. a maintenance-only service with no construction-related waste)?",
+          "score": 0.5905899
+        }
+      ]
+    },
+    {
+      "id": "general-07",
+      "question": "What is the ambition behind the substantial contribution criteria?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_70a618e119ff"
+      ],
+      "rank": 1,
+      "top_score": 0.59482193,
+      "top_faq_id": "faq_70a618e119ff",
+      "top_question": "What is the level of ambition of the EU Taxonomy \u2018substantial contribution\u2019 criteria? Why is it something higher than EU sectoral legislation?",
+      "latency_seconds": 0.10202059999573976,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_70a618e119ff",
+          "chunk_id": "faq_70a618e119ff_chunk_000",
+          "question": "What is the level of ambition of the EU Taxonomy \u2018substantial contribution\u2019 criteria? Why is it something higher than EU sectoral legislation?",
+          "score": 0.59482193
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_57b2b0fd852a",
+          "chunk_id": "faq_57b2b0fd852a_chunk_000",
+          "question": "What does checking the compliance with the TSC on the substantial contribution and the DNSH mean in practice?",
+          "score": 0.5242844
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_c891bec60ebc",
+          "chunk_id": "faq_c891bec60ebc_chunk_000",
+          "question": "What is the difference between the technical screening criteria for substantial contribution to climate change adaptation set out in Annex II and the technical screening criteria for DNSH to climate change adaptation set out in Annex I (climate change mitigation)?",
+          "score": 0.5230181
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_c5a7be5285d1",
+          "chunk_id": "faq_c5a7be5285d1_chunk_000",
+          "question": "How is \u2018substantial\u2019 defined in point 2 of the substantial contribution criteria of the activity \u201cData-driven solutions for GHG emissions reduction\u201d in Section 8.2., which refer to \u2018substantial life-cycle GHG emission savings\u2019? How is \u2018best performing alternative\u2019 defined?",
+          "score": 0.5156525
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_a16ce56ecf92",
+          "chunk_id": "faq_a16ce56ecf92_chunk_000",
+          "question": "Some DNSH criteria seem to be company strategies or plans, rather than activity specific criteria. Is it enough to comply on company level or does it need to be broken down per activity or product level?",
+          "score": 0.51531506
+        }
+      ]
+    },
+    {
+      "id": "general-08",
+      "question": "What does the Platform on Sustainable Finance do when technical screening criteria are developed?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_2c22b8afd63e"
+      ],
+      "rank": 1,
+      "top_score": 0.86271095,
+      "top_faq_id": "faq_2c22b8afd63e",
+      "top_question": "What is the role of the Platform on Sustainable Finance in developing the technical screening criteria?",
+      "latency_seconds": 0.11887530000240076,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_2c22b8afd63e",
+          "chunk_id": "faq_2c22b8afd63e_chunk_000",
+          "question": "What is the role of the Platform on Sustainable Finance in developing the technical screening criteria?",
+          "score": 0.86271095
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_41a887c74d87",
+          "chunk_id": "faq_41a887c74d87_chunk_000",
+          "question": "In cases of financing where the use of proceeds is known, should a financial undertaking be expected to review all the documents attesting compliance with the technical screening criteria (TSC) or should it accept the assessment of that compliance, including verification or assurance, submitted by the counterparty?",
+          "score": 0.592918
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_41a887c74d87",
+          "chunk_id": "faq_41a887c74d87_chunk_002",
+          "question": "In cases of financing where the use of proceeds is known, should a financial undertaking be expected to review all the documents attesting compliance with the technical screening criteria (TSC) or should it accept the assessment of that compliance, including verification or assurance, submitted by the counterparty?",
+          "score": 0.5880618
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_056775a64322",
+          "chunk_id": "faq_056775a64322_chunk_000",
+          "question": "How to deal with technical screening criteria that are not relevant to a specific activity mentioned in the description (e.g. a maintenance-only service with no construction-related waste)?",
+          "score": 0.5862545
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_41a887c74d87",
+          "chunk_id": "faq_41a887c74d87_chunk_001",
+          "question": "In cases of financing where the use of proceeds is known, should a financial undertaking be expected to review all the documents attesting compliance with the technical screening criteria (TSC) or should it accept the assessment of that compliance, including verification or assurance, submitted by the counterparty?",
+          "score": 0.58507633
+        }
+      ]
+    },
+    {
+      "id": "general-09",
+      "question": "Why are some industries and economic activities not included in the EU Taxonomy?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_89d3490fb13c"
+      ],
+      "rank": 2,
+      "top_score": 0.7575735,
+      "top_faq_id": "faq_031698157e34",
+      "top_question": "My company\u2019s activity is not covered in the EU Taxonomy. What does that mean for my company?",
+      "latency_seconds": 0.13420159999805037,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_031698157e34",
+          "chunk_id": "faq_031698157e34_chunk_000",
+          "question": "My company\u2019s activity is not covered in the EU Taxonomy. What does that mean for my company?",
+          "score": 0.7575735
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_89d3490fb13c",
+          "chunk_id": "faq_89d3490fb13c_chunk_001",
+          "question": "What is the coverage of the EU Taxonomy and why are some sectors or activities not covered?",
+          "score": 0.7229094
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_777a448bcdd1",
+          "chunk_id": "faq_777a448bcdd1_chunk_001",
+          "question": "What is the EU Taxonomy?",
+          "score": 0.716282
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_0c9e9612974f",
+          "chunk_id": "faq_0c9e9612974f_chunk_000",
+          "question": "How about companies without any Taxonomy-aligned activities? Will they lose access to finance?",
+          "score": 0.67177343
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_89d3490fb13c",
+          "chunk_id": "faq_89d3490fb13c_chunk_000",
+          "question": "What is the coverage of the EU Taxonomy and why are some sectors or activities not covered?",
+          "score": 0.6597427
+        }
+      ]
+    },
+    {
+      "id": "eligibility-01",
+      "question": "What exactly is a Taxonomy-eligible economic activity?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_e872eee7aa76"
+      ],
+      "rank": 1,
+      "top_score": 0.8189677,
+      "top_faq_id": "faq_e872eee7aa76",
+      "top_question": "What is a Taxonomy-eligible economic activity?",
+      "latency_seconds": 0.09274909998930525,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_e872eee7aa76",
+          "chunk_id": "faq_e872eee7aa76_chunk_000",
+          "question": "What is a Taxonomy-eligible economic activity?",
+          "score": 0.8189677
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_e872eee7aa76",
+          "chunk_id": "faq_e872eee7aa76_chunk_001",
+          "question": "What is a Taxonomy-eligible economic activity?",
+          "score": 0.71945053
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_6c681cd84bf2",
+          "chunk_id": "faq_6c681cd84bf2_chunk_002",
+          "question": "How far should undertakings assess and report Taxonomy eligible activities in their value chain, both upstream and downstream?",
+          "score": 0.70267564
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_280fb2fc089f",
+          "chunk_id": "faq_280fb2fc089f_chunk_000",
+          "question": "Should Taxonomy-eligible economic activities be reported in monetary amounts?",
+          "score": 0.69063485
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_1cd032b560d0",
+          "chunk_id": "faq_1cd032b560d0_chunk_000",
+          "question": "What should undertakings with no Taxonomy-eligible economic activities report?",
+          "score": 0.6876775
+        }
+      ]
+    },
+    {
+      "id": "eligibility-02",
+      "question": "What is the difference between enabling and transitional activities?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_2d05769f5fb7"
+      ],
+      "rank": 1,
+      "top_score": 0.63411343,
+      "top_faq_id": "faq_2d05769f5fb7",
+      "top_question": "What are 'enabling' and \u00b4transitional\u00b4 economic activities in the context of Taxonomy eligibility reporting?",
+      "latency_seconds": 0.09336709999479353,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_2d05769f5fb7",
+          "chunk_id": "faq_2d05769f5fb7_chunk_000",
+          "question": "What are 'enabling' and \u00b4transitional\u00b4 economic activities in the context of Taxonomy eligibility reporting?",
+          "score": 0.63411343
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_1c129f960d5b",
+          "chunk_id": "faq_1c129f960d5b_chunk_000",
+          "question": "What does \u201cbeyond the activity that is financed\u201d mean in the context of the guarantee of permanence referred to in point 3.2. in Section 1.3.?",
+          "score": 0.5766686
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_5141e84f977f",
+          "chunk_id": "faq_5141e84f977f_chunk_002",
+          "question": "How does the EU Taxonomy define green economic activities?",
+          "score": 0.57306063
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_f0303ff30c57",
+          "chunk_id": "faq_f0303ff30c57_chunk_000",
+          "question": "Is the \u201cbest in class\u201d exception for transitional activities referred to in the activity \u201cInland freight water transport\u201d in Section 6.8. limited to 2025 for water transport vessels?",
+          "score": 0.5426542
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_a00003dc48dd",
+          "chunk_id": "faq_a00003dc48dd_chunk_000",
+          "question": "How to interpret the use of \u201cand\u201d and \u201cor\u201d in the description of economic activities (for instance in \u2018Construction or operation of electricity generation facilities that produce electricity from hydropower\u2019 in Section 4.5; or \u2018Construction and operation of electricity generation installations that produce electricity exclusively from biomass, biogas or bioliquids\u2019 in Section 4.8)?",
+          "score": 0.53915095
+        }
+      ]
+    },
+    {
+      "id": "eligibility-03",
+      "question": "How should NACE codes be used when identifying eligible activities?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_e3a09fcbeb74"
+      ],
+      "rank": 1,
+      "top_score": 0.8070411,
+      "top_faq_id": "faq_e3a09fcbeb74",
+      "top_question": "How should NACE codes be used to identify Taxonomy-eligible activities in the context of eligibility-reporting?",
+      "latency_seconds": 0.09699479999835603,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_e3a09fcbeb74",
+          "chunk_id": "faq_e3a09fcbeb74_chunk_000",
+          "question": "How should NACE codes be used to identify Taxonomy-eligible activities in the context of eligibility-reporting?",
+          "score": 0.8070411
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_43e59e6580a4",
+          "chunk_id": "faq_43e59e6580a4_chunk_000",
+          "question": "How should NACE codes be assigned to exposures for the purpose of template 2 of green asset ratio (GAR) disclosures included in Annex VI to the Disclosures Delegated Act (DDA)? As the breakdown per NACE code is not required under disclosures by non-financial undertakings, where can credit institutions find that information to complete template 2 of Annex VI DDA? Given that some activities listed in the Disclosures Delegated Act do not have a NACE code, how can these be integrated in template 2 of Annex VI DDA?",
+          "score": 0.667829
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_ac946a8d2deb",
+          "chunk_id": "faq_ac946a8d2deb_chunk_000",
+          "question": "How is an 'economic activity' defined in the Disclosures Delegated Act?",
+          "score": 0.57404757
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_6c681cd84bf2",
+          "chunk_id": "faq_6c681cd84bf2_chunk_001",
+          "question": "How far should undertakings assess and report Taxonomy eligible activities in their value chain, both upstream and downstream?",
+          "score": 0.56794
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_a00003dc48dd",
+          "chunk_id": "faq_a00003dc48dd_chunk_000",
+          "question": "How to interpret the use of \u201cand\u201d and \u201cor\u201d in the description of economic activities (for instance in \u2018Construction or operation of electricity generation facilities that produce electricity from hydropower\u2019 in Section 4.5; or \u2018Construction and operation of electricity generation installations that produce electricity exclusively from biomass, biogas or bioliquids\u2019 in Section 4.8)?",
+          "score": 0.55636287
+        }
+      ]
+    },
+    {
+      "id": "eligibility-04",
+      "question": "Must non-financial companies include eligible activities outside the EU?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_bbfbef912495"
+      ],
+      "rank": 1,
+      "top_score": 0.682177,
+      "top_faq_id": "faq_bbfbef912495",
+      "top_question": "Should non-financial undertakings report the Taxonomy eligibility of their non-EU activities?",
+      "latency_seconds": 0.09165660000871867,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_bbfbef912495",
+          "chunk_id": "faq_bbfbef912495_chunk_000",
+          "question": "Should non-financial undertakings report the Taxonomy eligibility of their non-EU activities?",
+          "score": 0.682177
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_031698157e34",
+          "chunk_id": "faq_031698157e34_chunk_000",
+          "question": "My company\u2019s activity is not covered in the EU Taxonomy. What does that mean for my company?",
+          "score": 0.66660535
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_89d3490fb13c",
+          "chunk_id": "faq_89d3490fb13c_chunk_001",
+          "question": "What is the coverage of the EU Taxonomy and why are some sectors or activities not covered?",
+          "score": 0.59988546
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_0c9e9612974f",
+          "chunk_id": "faq_0c9e9612974f_chunk_000",
+          "question": "How about companies without any Taxonomy-aligned activities? Will they lose access to finance?",
+          "score": 0.5987623
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_3266fe4e491a",
+          "chunk_id": "faq_3266fe4e491a_chunk_000",
+          "question": "How can an undertaking's activities that are carried out in jurisdictions outside the EU be assessed for compliance with the technical screening criteria by reference to local third-country requirements or guidelines? When criteria refer to EU/national legislation or standards, should the level of requirements be adapted for criteria to be achieved outside the EU?",
+          "score": 0.5948485
+        }
+      ]
+    },
+    {
+      "id": "eligibility-05",
+      "question": "What must a company report when it has no Taxonomy-eligible activities?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_1cd032b560d0"
+      ],
+      "rank": 1,
+      "top_score": 0.7692479,
+      "top_faq_id": "faq_1cd032b560d0",
+      "top_question": "What should undertakings with no Taxonomy-eligible economic activities report?",
+      "latency_seconds": 0.10917180000978988,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_1cd032b560d0",
+          "chunk_id": "faq_1cd032b560d0_chunk_000",
+          "question": "What should undertakings with no Taxonomy-eligible economic activities report?",
+          "score": 0.7692479
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_280fb2fc089f",
+          "chunk_id": "faq_280fb2fc089f_chunk_000",
+          "question": "Should Taxonomy-eligible economic activities be reported in monetary amounts?",
+          "score": 0.72845054
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_6c681cd84bf2",
+          "chunk_id": "faq_6c681cd84bf2_chunk_000",
+          "question": "How far should undertakings assess and report Taxonomy eligible activities in their value chain, both upstream and downstream?",
+          "score": 0.72647905
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_6c681cd84bf2",
+          "chunk_id": "faq_6c681cd84bf2_chunk_002",
+          "question": "How far should undertakings assess and report Taxonomy eligible activities in their value chain, both upstream and downstream?",
+          "score": 0.71834123
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_e872eee7aa76",
+          "chunk_id": "faq_e872eee7aa76_chunk_001",
+          "question": "What is a Taxonomy-eligible economic activity?",
+          "score": 0.7124306
+        }
+      ]
+    },
+    {
+      "id": "disclosure-01",
+      "question": "How are capital expenditure and operating expenditure defined for Taxonomy disclosures?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_c7b8cc6a4a67"
+      ],
+      "rank": 1,
+      "top_score": 0.76399404,
+      "top_faq_id": "faq_c7b8cc6a4a67",
+      "top_question": "How does the Disclosures Delegated Act define capital and operating expenditures?",
+      "latency_seconds": 0.09215640000184067,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_c7b8cc6a4a67",
+          "chunk_id": "faq_c7b8cc6a4a67_chunk_000",
+          "question": "How does the Disclosures Delegated Act define capital and operating expenditures?",
+          "score": 0.76399404
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_62ccf1972e54",
+          "chunk_id": "faq_62ccf1972e54_chunk_000",
+          "question": "How are turnover, CapEx and OpEx defined in the context of Taxonomy eligibility reporting?",
+          "score": 0.74906206
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_40ad88e29386",
+          "chunk_id": "faq_40ad88e29386_chunk_000",
+          "question": "What is the scope of the CapEx and OpEx referred to in points (c) of Section 1.1.2.2 and Section 1.1.3.2 of Annex I, i.e. purchase of Taxonomy-aligned output and individual measures?",
+          "score": 0.7072501
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_62ccf1972e54",
+          "chunk_id": "faq_62ccf1972e54_chunk_001",
+          "question": "How are turnover, CapEx and OpEx defined in the context of Taxonomy eligibility reporting?",
+          "score": 0.69286835
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_5c1fcf951a7d",
+          "chunk_id": "faq_5c1fcf951a7d_chunk_000",
+          "question": "What is the scope of \u2018other direct expenditures\u2019 set out in Annex I to the Disclosures Delegated Act?",
+          "score": 0.67965984
+        }
+      ]
+    },
+    {
+      "id": "reporting-01",
+      "question": "Which purchases and measures belong in the CapEx and OpEx scope?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_40ad88e29386"
+      ],
+      "rank": 1,
+      "top_score": 0.7057109,
+      "top_faq_id": "faq_40ad88e29386",
+      "top_question": "What is the scope of the CapEx and OpEx referred to in points (c) of Section 1.1.2.2 and Section 1.1.3.2 of Annex I, i.e. purchase of Taxonomy-aligned output and individual measures?",
+      "latency_seconds": 0.09448200000042561,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_40ad88e29386",
+          "chunk_id": "faq_40ad88e29386_chunk_000",
+          "question": "What is the scope of the CapEx and OpEx referred to in points (c) of Section 1.1.2.2 and Section 1.1.3.2 of Annex I, i.e. purchase of Taxonomy-aligned output and individual measures?",
+          "score": 0.7057109
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_c7b8cc6a4a67",
+          "chunk_id": "faq_c7b8cc6a4a67_chunk_000",
+          "question": "How does the Disclosures Delegated Act define capital and operating expenditures?",
+          "score": 0.690256
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_8abaa5464f4b",
+          "chunk_id": "faq_8abaa5464f4b_chunk_000",
+          "question": "How comprehensive and precise should a CapEx plan be to be counted in the numerator of the CapEx KPI? Would the expansion of an existing Taxonomy-aligned economic activity in the same facility count as CapEx under point (a) or (b) of Section 1.1.2.2. of Annex I?",
+          "score": 0.6829867
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_62ccf1972e54",
+          "chunk_id": "faq_62ccf1972e54_chunk_000",
+          "question": "How are turnover, CapEx and OpEx defined in the context of Taxonomy eligibility reporting?",
+          "score": 0.6806859
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_7f946c9fd760",
+          "chunk_id": "faq_7f946c9fd760_chunk_000",
+          "question": "To which elements of the definition of the denominator of OpEx KPI does the notion of \u201cmaintenance and repair, and any other direct expenditures relating to the day-to-day servicing of assets of property, plant and equipment\u201d refer under Section 1.1.3.1 of Annex I?",
+          "score": 0.649215
+        }
+      ]
+    },
+    {
+      "id": "disclosure-02",
+      "question": "What information must non-financial companies disclose under the delegated act?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_25767887bb4a"
+      ],
+      "rank": 1,
+      "top_score": 0.70182264,
+      "top_faq_id": "faq_25767887bb4a",
+      "top_question": "What should non-financial companies report under this disclosures delegated act?",
+      "latency_seconds": 0.09341159999894444,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_25767887bb4a",
+          "chunk_id": "faq_25767887bb4a_chunk_001",
+          "question": "What should non-financial companies report under this disclosures delegated act?",
+          "score": 0.70182264
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_f4d2b293e3a8",
+          "chunk_id": "faq_f4d2b293e3a8_chunk_001",
+          "question": "How does this disclosures delegated act treat exposures to companies that are not subject to the reporting under this delegated act (SMEs, non-EU companies) in the reporting of financial companies?",
+          "score": 0.6926173
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_f81bf016e05e",
+          "chunk_id": "faq_f81bf016e05e_chunk_001",
+          "question": "What is the Disclosures Delegated Act of the Taxonomy Regulation Article 8?",
+          "score": 0.67758495
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_7aaf8599a115",
+          "chunk_id": "faq_7aaf8599a115_chunk_000",
+          "question": "What should financial and non-financial undertakings report and by when?",
+          "score": 0.6770666
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_5503b0978fc8",
+          "chunk_id": "faq_5503b0978fc8_chunk_000",
+          "question": "To what undertakings does the reporting obligation under the Taxonomy Regulation Article 8 Delegated Act apply?",
+          "score": 0.6620168
+        }
+      ]
+    },
+    {
+      "id": "disclosure-03",
+      "question": "What are financial companies required to report under the disclosures delegated act?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_9a5fd7b6dacf"
+      ],
+      "rank": null,
+      "top_score": 0.75389576,
+      "top_faq_id": "faq_f4d2b293e3a8",
+      "top_question": "How does this disclosures delegated act treat exposures to companies that are not subject to the reporting under this delegated act (SMEs, non-EU companies) in the reporting of financial companies?",
+      "latency_seconds": 0.10866830000304617,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_f4d2b293e3a8",
+          "chunk_id": "faq_f4d2b293e3a8_chunk_001",
+          "question": "How does this disclosures delegated act treat exposures to companies that are not subject to the reporting under this delegated act (SMEs, non-EU companies) in the reporting of financial companies?",
+          "score": 0.75389576
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_7aaf8599a115",
+          "chunk_id": "faq_7aaf8599a115_chunk_000",
+          "question": "What should financial and non-financial undertakings report and by when?",
+          "score": 0.6899091
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_5503b0978fc8",
+          "chunk_id": "faq_5503b0978fc8_chunk_000",
+          "question": "To what undertakings does the reporting obligation under the Taxonomy Regulation Article 8 Delegated Act apply?",
+          "score": 0.672118
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_7140c2711a78",
+          "chunk_id": "faq_7140c2711a78_chunk_001",
+          "question": "How does the Disclosures Delegated Act interact with the proposed requirements on corporate sustainability reporting?",
+          "score": 0.6646584
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_f4d2b293e3a8",
+          "chunk_id": "faq_f4d2b293e3a8_chunk_000",
+          "question": "How does this disclosures delegated act treat exposures to companies that are not subject to the reporting under this delegated act (SMEs, non-EU companies) in the reporting of financial companies?",
+          "score": 0.66042954
+        }
+      ]
+    },
+    {
+      "id": "reporting-02",
+      "question": "Should financial undertakings calculate separate KPIs based on turnover and CapEx?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_9b953d3b3cc8"
+      ],
+      "rank": 1,
+      "top_score": 0.8045943,
+      "top_faq_id": "faq_9b953d3b3cc8",
+      "top_question": "Should financial undertakings calculate two key performance indicators (KPIs) for investments or exposures, one based on the turnover KPIs and one based on CapEx KPIs of investee companies or counterparties? Or should financial undertakings combine the values from the turnover and CapEx KPIs of investee companies or counterparties into a single KPI?",
+      "latency_seconds": 0.09410809999099001,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_9b953d3b3cc8",
+          "chunk_id": "faq_9b953d3b3cc8_chunk_002",
+          "question": "Should financial undertakings calculate two key performance indicators (KPIs) for investments or exposures, one based on the turnover KPIs and one based on CapEx KPIs of investee companies or counterparties? Or should financial undertakings combine the values from the turnover and CapEx KPIs of investee companies or counterparties into a single KPI?",
+          "score": 0.8045943
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_9b953d3b3cc8",
+          "chunk_id": "faq_9b953d3b3cc8_chunk_001",
+          "question": "Should financial undertakings calculate two key performance indicators (KPIs) for investments or exposures, one based on the turnover KPIs and one based on CapEx KPIs of investee companies or counterparties? Or should financial undertakings combine the values from the turnover and CapEx KPIs of investee companies or counterparties into a single KPI?",
+          "score": 0.7994607
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_9b953d3b3cc8",
+          "chunk_id": "faq_9b953d3b3cc8_chunk_003",
+          "question": "Should financial undertakings calculate two key performance indicators (KPIs) for investments or exposures, one based on the turnover KPIs and one based on CapEx KPIs of investee companies or counterparties? Or should financial undertakings combine the values from the turnover and CapEx KPIs of investee companies or counterparties into a single KPI?",
+          "score": 0.7929797
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_9b953d3b3cc8",
+          "chunk_id": "faq_9b953d3b3cc8_chunk_000",
+          "question": "Should financial undertakings calculate two key performance indicators (KPIs) for investments or exposures, one based on the turnover KPIs and one based on CapEx KPIs of investee companies or counterparties? Or should financial undertakings combine the values from the turnover and CapEx KPIs of investee companies or counterparties into a single KPI?",
+          "score": 0.79257107
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_3e368887b38d",
+          "chunk_id": "faq_3e368887b38d_chunk_000",
+          "question": "How should financial undertakings compute the breakdowns of their key performance indicators (KPIs) per environmental objectives?",
+          "score": 0.7440153
+        }
+      ]
+    },
+    {
+      "id": "climate-04",
+      "question": "Can regional or national climate projections be used for a climate risk assessment?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_d2e1a1a581c4"
+      ],
+      "rank": 1,
+      "top_score": 0.80741113,
+      "top_faq_id": "faq_d2e1a1a581c4",
+      "top_question": "In relation to the technical screening criteria for DNSH to climate change adaptation, can the climate projections prepared at State or regional level be used for the climate risk assessment?",
+      "latency_seconds": 0.0945950999885099,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_d2e1a1a581c4",
+          "chunk_id": "faq_d2e1a1a581c4_chunk_000",
+          "question": "In relation to the technical screening criteria for DNSH to climate change adaptation, can the climate projections prepared at State or regional level be used for the climate risk assessment?",
+          "score": 0.80741113
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_97ae0d292766",
+          "chunk_id": "faq_97ae0d292766_chunk_000",
+          "question": "What are the minimum requirements for a climate risk and vulnerability assessment in terms of scope and level of details (materiality of risks etc.)?",
+          "score": 0.6975862
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_22025cf89057",
+          "chunk_id": "faq_22025cf89057_chunk_000",
+          "question": "How does proportionality influence the scope of the robust climate risk and vulnerability assessment that has to be conducted as part of the DNSH climate change adaptation criteria?",
+          "score": 0.6968837
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_22025cf89057",
+          "chunk_id": "faq_22025cf89057_chunk_001",
+          "question": "How does proportionality influence the scope of the robust climate risk and vulnerability assessment that has to be conducted as part of the DNSH climate change adaptation criteria?",
+          "score": 0.65032905
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_04d9d294ba9e",
+          "chunk_id": "faq_04d9d294ba9e_chunk_000",
+          "question": "Will the use of existing environmental risk inventories (e.g. for floods, avalanches) with consideration of particularly relevant environmental risk scenarios (e.g. for temperature, precipitation, wind) suffice for the time being?",
+          "score": 0.64540184
+        }
+      ]
+    },
+    {
+      "id": "climate-05",
+      "question": "Which documents demonstrate compliance with DNSH climate adaptation requirements?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_8f9d87d25b9f"
+      ],
+      "rank": 1,
+      "top_score": 0.7750921,
+      "top_faq_id": "faq_8f9d87d25b9f",
+      "top_question": "What documentation must be provided to meet DNSH requirements related to climate change adaptation?",
+      "latency_seconds": 0.10949419999087695,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_8f9d87d25b9f",
+          "chunk_id": "faq_8f9d87d25b9f_chunk_000",
+          "question": "What documentation must be provided to meet DNSH requirements related to climate change adaptation?",
+          "score": 0.7750921
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_c891bec60ebc",
+          "chunk_id": "faq_c891bec60ebc_chunk_000",
+          "question": "What is the difference between the technical screening criteria for substantial contribution to climate change adaptation set out in Annex II and the technical screening criteria for DNSH to climate change adaptation set out in Annex I (climate change mitigation)?",
+          "score": 0.6862283
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_fa3c7e16e7ec",
+          "chunk_id": "faq_fa3c7e16e7ec_chunk_000",
+          "question": "In the case of retail clients, can credit institutions verify compliance with the technical screening criteria (TSC), in particular DNSH for adaptation, using specific evidence, e.g. domestic certifications or information in energy performance criteria (EPC))?",
+          "score": 0.644071
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_d2e1a1a581c4",
+          "chunk_id": "faq_d2e1a1a581c4_chunk_000",
+          "question": "In relation to the technical screening criteria for DNSH to climate change adaptation, can the climate projections prepared at State or regional level be used for the climate risk assessment?",
+          "score": 0.6286926
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_a16ce56ecf92",
+          "chunk_id": "faq_a16ce56ecf92_chunk_000",
+          "question": "Some DNSH criteria seem to be company strategies or plans, rather than activity specific criteria. Is it enough to comply on company level or does it need to be broken down per activity or product level?",
+          "score": 0.6104648
+        }
+      ]
+    },
+    {
+      "id": "complementary-01",
+      "question": "Why was the Taxonomy Complementary Climate Delegated Act introduced?",
+      "answerable": true,
+      "expected_faq_ids": [
+        "faq_a1a7f1f6a52e",
+        "faq_ece7fc571ee2"
+      ],
+      "rank": 4,
+      "top_score": 0.6868851,
+      "top_faq_id": "faq_a88b99eff908",
+      "top_question": "How will the Taxonomy be further developed \u2013 will there be more activities contributing to climate change mitigation (CCM) included in the Climate Delegated Act?",
+      "latency_seconds": 0.10899369999242481,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_a88b99eff908",
+          "chunk_id": "faq_a88b99eff908_chunk_000",
+          "question": "How will the Taxonomy be further developed \u2013 will there be more activities contributing to climate change mitigation (CCM) included in the Climate Delegated Act?",
+          "score": 0.6868851
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_25cc74c846a2",
+          "chunk_id": "faq_25cc74c846a2_chunk_000",
+          "question": "What is the Taxonomy Climate Delegated Act?",
+          "score": 0.6429093
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_aabcb3919785",
+          "chunk_id": "faq_aabcb3919785_chunk_000",
+          "question": "How does this disclosures delegated act interact with the climate delegated act adopted on 4 June and the future environmental delegated act specifying the technical screening criteria for the remaining environmental objectives?",
+          "score": 0.6219038
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_ece7fc571ee2",
+          "chunk_id": "faq_ece7fc571ee2_chunk_000",
+          "question": "What is the rationale for the Taxonomy Complementary Climate Delegated Act?",
+          "score": 0.60216635
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_86549a9c93cc",
+          "chunk_id": "faq_86549a9c93cc_chunk_001",
+          "question": "What is the rationale for defining certain gas-related activities as \u201csubstantially contributing to\u201d the EU climate and environmental objectives?",
+          "score": 0.59782434
+        }
+      ]
+    },
+    {
+      "id": "unanswerable-01",
+      "question": "What will the weather be in Brussels tomorrow?",
+      "answerable": false,
+      "expected_faq_ids": [],
+      "rank": null,
+      "top_score": 0.28645855,
+      "top_faq_id": "faq_04d9d294ba9e",
+      "top_question": "Will the use of existing environmental risk inventories (e.g. for floods, avalanches) with consideration of particularly relevant environmental risk scenarios (e.g. for temperature, precipitation, wind) suffice for the time being?",
+      "latency_seconds": 0.09271949999674689,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_04d9d294ba9e",
+          "chunk_id": "faq_04d9d294ba9e_chunk_000",
+          "question": "Will the use of existing environmental risk inventories (e.g. for floods, avalanches) with consideration of particularly relevant environmental risk scenarios (e.g. for temperature, precipitation, wind) suffice for the time being?",
+          "score": 0.28645855
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_a055f842c227",
+          "chunk_id": "faq_a055f842c227_chunk_000",
+          "question": "With the submission of the 6th IPCC Assessment Report, the IPCC presented new climate scenarios. Are these to be taken into account instead of the existing scenarios cited in the EU Taxonomy?",
+          "score": 0.25144517
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_1e7a16b8c64e",
+          "chunk_id": "faq_1e7a16b8c64e_chunk_000",
+          "question": "The DNSH for water and marine resources of the activity \u201cConstruction of new buildings\u201d in Section 7.1. state that \u2018WCs, including suites, bowls and flushing cisterns, have a full flush volume of a maximum of 6 litres and a maximum average flush volume of 3,5 litres\u2019. How shall the maximum average flush be calculated? Is the BREEAM methodology applicable?",
+          "score": 0.22762787
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_97ae0d292766",
+          "chunk_id": "faq_97ae0d292766_chunk_000",
+          "question": "What are the minimum requirements for a climate risk and vulnerability assessment in terms of scope and level of details (materiality of risks etc.)?",
+          "score": 0.2247474
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_78b309065f48",
+          "chunk_id": "faq_78b309065f48_chunk_000",
+          "question": "What is meant by \u2018state-of-the-art climate projections\u2019 referred to in the substantial contribution criteria to climate change adaptation?",
+          "score": 0.2225568
+        }
+      ]
+    },
+    {
+      "id": "unanswerable-02",
+      "question": "Who won the most recent football World Cup?",
+      "answerable": false,
+      "expected_faq_ids": [],
+      "rank": null,
+      "top_score": 0.22482729,
+      "top_faq_id": "faq_3ae06da0426a",
+      "top_question": "What does \u201cthe highest populated classes\u201d based on an official dataset mean regarding tyres?",
+      "latency_seconds": 0.09341439999116119,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_3ae06da0426a",
+          "chunk_id": "faq_3ae06da0426a_chunk_000",
+          "question": "What does \u201cthe highest populated classes\u201d based on an official dataset mean regarding tyres?",
+          "score": 0.22482729
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_1e7a16b8c64e",
+          "chunk_id": "faq_1e7a16b8c64e_chunk_000",
+          "question": "The DNSH for water and marine resources of the activity \u201cConstruction of new buildings\u201d in Section 7.1. state that \u2018WCs, including suites, bowls and flushing cisterns, have a full flush volume of a maximum of 6 litres and a maximum average flush volume of 3,5 litres\u2019. How shall the maximum average flush be calculated? Is the BREEAM methodology applicable?",
+          "score": 0.1960147
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_b5f5ffe2b002",
+          "chunk_id": "faq_b5f5ffe2b002_chunk_000",
+          "question": "What does \u201chighest two populated classes\u201d for household appliances referred to in the TSC in Section 3.5. and, where applicable, the TSC in Section 7.3. mean in practice? What household appliances fall under these classes? Could the EPREL database be used to obtain the information?",
+          "score": 0.18860894
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_c62179859041",
+          "chunk_id": "faq_c62179859041_chunk_000",
+          "question": "Are \u201cthe highest populated classes\u201d of tyres determined by dimension or categories?",
+          "score": 0.18806586
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_78b309065f48",
+          "chunk_id": "faq_78b309065f48_chunk_000",
+          "question": "What is meant by \u2018state-of-the-art climate projections\u2019 referred to in the substantial contribution criteria to climate change adaptation?",
+          "score": 0.18645585
+        }
+      ]
+    },
+    {
+      "id": "unanswerable-03",
+      "question": "How do I bake a chocolate cake?",
+      "answerable": false,
+      "expected_faq_ids": [],
+      "rank": null,
+      "top_score": 0.18027946,
+      "top_faq_id": "faq_4d3e31c34490",
+      "top_question": "How are the GHG emission thresholds specified in the technical screening criteria of the activity \u201cManufacture of iron and steel\u201d in Section 3.9. applied? For example, does the manufacture of hot metal (1,331 tCO2e/t product) include the provision of coke (0,144 tCO2e/t product) or is the GHG emission threshold to be applied exclusively for the hot metal manufacturing process step?",
+      "latency_seconds": 0.09346110001206398,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_4d3e31c34490",
+          "chunk_id": "faq_4d3e31c34490_chunk_000",
+          "question": "How are the GHG emission thresholds specified in the technical screening criteria of the activity \u201cManufacture of iron and steel\u201d in Section 3.9. applied? For example, does the manufacture of hot metal (1,331 tCO2e/t product) include the provision of coke (0,144 tCO2e/t product) or is the GHG emission threshold to be applied exclusively for the hot metal manufacturing process step?",
+          "score": 0.18027946
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_82bc408969fd",
+          "chunk_id": "faq_82bc408969fd_chunk_000",
+          "question": "How should the best available techniques (BAT-AEL) ranges referenced in the technical screening criteria of the activity \u201cElectricity generation from renewable non-fossil gaseous and liquid fuels\u201d in Section 4.7. be applied in non-EU jurisdictions?",
+          "score": 0.17544392
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_1da38aa503cf",
+          "chunk_id": "faq_1da38aa503cf_chunk_000",
+          "question": "What is the definition of \u201chot metal\u201d as included in the substantial contribution criteria of the activity \u201cManufacture of iron and steel\u201d in Section 3.9.?",
+          "score": 0.17231286
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_91830dd799e5",
+          "chunk_id": "faq_91830dd799e5_chunk_000",
+          "question": "What auditing timelines should apply to loan collateral acquired by a credit institution as a repossession?",
+          "score": 0.16985354
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_b8f807a8973d",
+          "chunk_id": "faq_b8f807a8973d_chunk_000",
+          "question": "Can the construction of a building for own use count towards the activity \"Construction of new buildings\" in Section 7.1. or \u201cAcquisition and ownership of buildings\u201d in Section 7.7.?",
+          "score": 0.16665222
+        }
+      ]
+    },
+    {
+      "id": "unanswerable-04",
+      "question": "How can I sort a Python list in descending order?",
+      "answerable": false,
+      "expected_faq_ids": [],
+      "rank": null,
+      "top_score": 0.25131023,
+      "top_faq_id": "faq_3ae06da0426a",
+      "top_question": "What does \u201cthe highest populated classes\u201d based on an official dataset mean regarding tyres?",
+      "latency_seconds": 0.09360839999862947,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_3ae06da0426a",
+          "chunk_id": "faq_3ae06da0426a_chunk_000",
+          "question": "What does \u201cthe highest populated classes\u201d based on an official dataset mean regarding tyres?",
+          "score": 0.25131023
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_b5f5ffe2b002",
+          "chunk_id": "faq_b5f5ffe2b002_chunk_000",
+          "question": "What does \u201chighest two populated classes\u201d for household appliances referred to in the TSC in Section 3.5. and, where applicable, the TSC in Section 7.3. mean in practice? What household appliances fall under these classes? Could the EPREL database be used to obtain the information?",
+          "score": 0.2369505
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_c62179859041",
+          "chunk_id": "faq_c62179859041_chunk_000",
+          "question": "Are \u201cthe highest populated classes\u201d of tyres determined by dimension or categories?",
+          "score": 0.23243436
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_d6c8abb09713",
+          "chunk_id": "faq_d6c8abb09713_chunk_000",
+          "question": "Regarding the DNSH criteria to circular economy in the activity \u201cFreight rail transport\u201d in Section 6.2., when exactly is compliance with the waste hierarchy reached? Are there any percentage requirements?",
+          "score": 0.21652871
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_c24a788b1153",
+          "chunk_id": "faq_c24a788b1153_chunk_000",
+          "question": "How to apply the concept of \u201cessential use for society\u201d for DNSH on pollution prevention and control for activity \u201cManufacture of other low carbon technologies\u201d in Section 3.6.?",
+          "score": 0.21475032
+        }
+      ]
+    },
+    {
+      "id": "unanswerable-05",
+      "question": "What is the capital city of Japan?",
+      "answerable": false,
+      "expected_faq_ids": [],
+      "rank": null,
+      "top_score": 0.2329368,
+      "top_faq_id": "faq_2701fb4a0d96",
+      "top_question": "How is the \u201coverall trading pattern of the vessel\u201d in footnote 245 referred to in Section 6.8. of Annex I defined?",
+      "latency_seconds": 0.09280900000885595,
+      "retrieved": [
+        {
+          "rank": 1,
+          "faq_id": "faq_2701fb4a0d96",
+          "chunk_id": "faq_2701fb4a0d96_chunk_000",
+          "question": "How is the \u201coverall trading pattern of the vessel\u201d in footnote 245 referred to in Section 6.8. of Annex I defined?",
+          "score": 0.2329368
+        },
+        {
+          "rank": 2,
+          "faq_id": "faq_a182842f48b7",
+          "chunk_id": "faq_a182842f48b7_chunk_000",
+          "question": "Where a financial undertaking delegates portfolio management of assets to another financial undertaking, which financial undertaking includes such assets in the calculation of the key performance indicator (KPI)?",
+          "score": 0.21300623
+        },
+        {
+          "rank": 3,
+          "faq_id": "faq_57f2a125e207",
+          "chunk_id": "faq_57f2a125e207_chunk_000",
+          "question": "What else, apart from current-carrying infrastructure, is meant by \"track with necessary infrastructure\" as referenced in the substantial contribution criteria of activities \u201cPassenger interurban rail transport\u201d in Section 6.1. and \u201cFreight rail transport\u201d in Section 6.2.?",
+          "score": 0.21152988
+        },
+        {
+          "rank": 4,
+          "faq_id": "faq_c24a788b1153",
+          "chunk_id": "faq_c24a788b1153_chunk_000",
+          "question": "How to apply the concept of \u201cessential use for society\u201d for DNSH on pollution prevention and control for activity \u201cManufacture of other low carbon technologies\u201d in Section 3.6.?",
+          "score": 0.2112225
+        },
+        {
+          "rank": 5,
+          "faq_id": "faq_c7b8cc6a4a67",
+          "chunk_id": "faq_c7b8cc6a4a67_chunk_000",
+          "question": "How does the Disclosures Delegated Act define capital and operating expenditures?",
+          "score": 0.21014181
+        }
+      ]
+    }
+  ],
+  "config": {
+    "embedding_model": "qwen3-embedding:0.6b",
+    "chunk_size": 2000,
+    "top_k": 5,
+    "warmup_runs": 1
+  },
+  "experiment": "baseline",
+  "created_at": "2026-06-11T17:28:08.063516+00:00"
+}
