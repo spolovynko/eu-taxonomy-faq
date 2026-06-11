@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004494">
+    <title>EU Taxonomy Assistant</title>
+    <link rel="stylesheet" href="/css/styles.css?v=4">
+</head>
+<body>
+    <div class="page-decoration page-decoration--left" aria-hidden="true"></div>
+    <div class="page-decoration page-decoration--right" aria-hidden="true"></div>
+    <div class="page-decoration page-decoration--small" aria-hidden="true"></div>
+
+    <div class="app-shell">
+        <header class="masthead">
+            <a class="brand" href="/" aria-label="EU Taxonomy Navigator home">
+                <span class="brand-mark" aria-hidden="true">
+                    <span class="brand-mark__stars">EU</span>
+                </span>
+                <span class="brand-copy">
+                    <span class="brand-copy__eyebrow">Sustainable finance</span>
+                    <strong>EU Taxonomy Navigator</strong>
+                </span>
+            </a>
+        </header>
+
+        <main class="chat-panel">
+            <header class="chat-panel__header">
+                <div>
+                    <p class="section-label">AI assistant</p>
+                    <h1>EU Taxonomy Assistant</h1>
+                    <p>Ask questions about eligibility, alignment, delegated acts and reporting.</p>
+                </div>
+                <button class="secondary-button" id="clearChat" type="button" disabled>
+                    Clear conversation
+                </button>
+            </header>
+
+            <section class="conversation" id="conversation" aria-label="Chat conversation" aria-live="polite"></section>
+
+            <footer class="composer-area">
+                <form class="composer" id="chatForm">
+                    <label class="composer__field" for="messageInput">
+                        <span class="sr-only">Ask a question</span>
+                        <textarea
+                            id="messageInput"
+                            rows="1"
+                            placeholder="Ask a question about the EU Taxonomy..."
+                            autocomplete="off"
+                        ></textarea>
+                    </label>
+                    <button class="send-button" id="sendButton" type="submit" disabled>
+                        <span>Send</span>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="m21 3-7.2 18-3.2-7.6L3 10.2 21 3Z"/>
+                            <path d="m10.6 13.4 4.7-4.7"/>
+                        </svg>
+                    </button>
+                </form>
+            </footer>
+        </main>
+    </div>
+
+    <script src="/js/app.js?v=4"></script>
+</body>
+</html>
