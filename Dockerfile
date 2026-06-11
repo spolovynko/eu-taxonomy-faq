@@ -8,11 +8,17 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PORT=8000 \
     EU_TAXONOMY_FAQ_URL=https://ec.europa.eu/sustainable-finance-taxonomy/faq \
     FAQ_OUTPUT_PATH=/app/data/raw/faqs.json \
+    CHUNKS_OUTPUT_PATH=/app/data/processed/chunks.jsonl \
     CHUNK_SIZE=2000 \
     EMBEDDING_BASE_URL=http://ollama:11434/v1 \
-    EMBEDDING_API_KEY=ollama \
     EMBEDDING_MODEL=qwen3-embedding:0.6b \
-    EMBEDDING_BATCH_SIZE=32
+    EMBEDDING_BATCH_SIZE=32 \
+    QDRANT_URL=http://qdrant:6333 \
+    QDRANT_COLLECTION=eu_taxonomy_faq \
+    TOP_K=5 \
+    LLM_BASE_URL=http://ollama:11434/v1 \
+    LLM_MODEL=qwen2.5:3b \
+    LLM_TEMPERATURE=0
 
 WORKDIR /app
 

@@ -4,21 +4,6 @@ const messageInput = document.getElementById("messageInput");
 const sendButton = document.getElementById("sendButton");
 const clearChatButton = document.getElementById("clearChat");
 
-const demoResponses = new Map([
-    [
-        "Which activities are Taxonomy-eligible?",
-        "An activity is Taxonomy-eligible when it is described in the EU Taxonomy Delegated Acts, regardless of whether it already meets every technical screening criterion. Eligibility is the first step; alignment requires substantial contribution, DNSH and minimum safeguards checks.",
-    ],
-    [
-        "Explain substantial contribution in simple terms.",
-        "Substantial contribution means an economic activity makes a meaningful positive contribution to at least one of the EU's six environmental objectives and meets the relevant technical screening criteria for that objective.",
-    ],
-    [
-        "What does do no significant harm mean?",
-        "Do no significant harm, or DNSH, means an activity contributing to one environmental objective must not materially undermine any of the other five objectives. The applicable criteria depend on the activity and delegated act.",
-    ],
-]);
-
 let responseSequence = 0;
 
 function resizeInput() {
@@ -71,9 +56,40 @@ function createMessage(role, text, options = {}) {
     return message;
 }
 
-function getDemoResponse(question) {
-    return demoResponses.get(question)
-        || "This frontend is ready for an EU Taxonomy chat service. Connect the form handler in app.js to your API endpoint to replace this illustrative response with live answers.";
+async function streamAnswer(question, onChunk) {
+    const response = await fetch("/api/chat/stream", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ question }),
+    });
+
+    if (!response.ok) {
+        throw new Error("The assistant could not answer the question.");
+    }
+
+    if (!response.body) {
+        throw new Error("Streaming is not supported by this browser.");
+    }
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+
+    while (true) {
+        const { value, done } = await reader.read();
+
+        if (done) {
+            break;
+        }
+
+        onChunk(decoder.decode(value, { stream: true }));
+    }
+
+    const remainingText = decoder.decode();
+    if (remainingText) {
+        onChunk(remainingText);
+    }
 }
 
 async function handleSubmit(event) {
@@ -94,18 +110,42 @@ async function handleSubmit(event) {
 
     const requestSequence = ++responseSequence;
     const typingMessage = createMessage("assistant", "", { typing: true });
+    let answerBubble = null;
 
-    await new Promise((resolve) => window.setTimeout(resolve, 650));
+    try {
+        await streamAnswer(question, (chunk) => {
+            if (requestSequence === responseSequence) {
+                if (!answerBubble) {
+                    typingMessage.remove();
+                    const assistantMessage = createMessage("assistant", "");
+                    answerBubble = assistantMessage.querySelector(".message__bubble");
+                }
 
-    if (requestSequence !== responseSequence) {
-        return;
+                answerBubble.textContent += chunk;
+                scrollToLatest();
+            }
+        });
+
+        if (!answerBubble) {
+            throw new Error("The assistant returned an empty response.");
+        }
+    } catch (error) {
+        if (requestSequence === responseSequence) {
+            typingMessage.remove();
+
+            if (answerBubble) {
+                answerBubble.textContent += "\n\nThe response was interrupted.";
+            } else {
+                createMessage("assistant", error.message);
+            }
+        }
+    } finally {
+        if (requestSequence === responseSequence) {
+            messageInput.disabled = false;
+            updateSendState();
+            messageInput.focus();
+        }
     }
-
-    typingMessage.remove();
-    createMessage("assistant", getDemoResponse(question));
-    messageInput.disabled = false;
-    updateSendState();
-    messageInput.focus();
 }
 
 function clearConversation() {
