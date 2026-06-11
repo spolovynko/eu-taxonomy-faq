@@ -1,1 +1,27 @@
 FROM python:3.12-slim
+
+COPY --from=ghcr.io/astral-sh/uv:0.11.6 /uv /uvx /bin/
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    HOST=0.0.0.0 \
+    PORT=8000 \
+    EU_TAXONOMY_FAQ_URL=https://ec.europa.eu/sustainable-finance-taxonomy/faq \
+    FAQ_OUTPUT_PATH=/app/data/raw/faqs.json
+
+WORKDIR /app
+
+COPY pyproject.toml uv.lock README.md ./
+
+RUN uv sync --frozen --no-dev --no-install-project \
+    && /app/.venv/bin/playwright install --with-deps chromium
+
+COPY src ./src
+
+RUN uv sync --frozen --no-dev
+
+COPY main.py ./
+
+EXPOSE 8000
+
+CMD ["/app/.venv/bin/python", "main.py"]

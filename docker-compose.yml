@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+    environment:
+      HOST: "${HOST:-0.0.0.0}"
+      PORT: "${PORT:-8000}"
+      EU_TAXONOMY_FAQ_URL: "${EU_TAXONOMY_FAQ_URL:-https://ec.europa.eu/sustainable-finance-taxonomy/faq}"
+      FAQ_OUTPUT_PATH: "${FAQ_OUTPUT_PATH:-data/raw/faqs.json}"
+    ports:
+      - "${PORT:-8000}:${PORT:-8000}"
+    volumes:
+      - ./data:/app/data
